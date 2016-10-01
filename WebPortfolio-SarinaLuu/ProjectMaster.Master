@@ -68,17 +68,13 @@
                     <asp:ContentPlaceHolder ID="Content2" runat="server">
                         </asp:ContentPlaceHolder>
                 </div>
-                <div id="itemThree" class="content">
-                    <asp:ContentPlaceHolder ID="Content3" runat="server">
-                        </asp:ContentPlaceHolder>
-                </div>
+                
             </div>
         </div>
         <div id="navLinks">
             <ul>
                 <li class="itemLinks" data-pos="0px"></li>
                 <li class="itemLinks" data-pos="-970px"></li>
-                <li class="itemLinks" data-pos="-1940px"></li>
             </ul>
         </div>
 

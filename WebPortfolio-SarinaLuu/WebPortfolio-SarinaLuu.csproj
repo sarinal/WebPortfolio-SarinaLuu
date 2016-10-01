@@ -70,10 +70,14 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Content\images\default.jpg" />
+    <Content Include="Content\images\homePic.jpg" />
     <Content Include="Content\images\LogoSarina.png" />
     <Content Include="Content\images\menuIcon.png" />
     <Content Include="Content\images\menuIconHover.png" />
     <Content Include="Content\images\profilephoto1.jpg" />
+    <Content Include="Content\images\project1image.png" />
+    <Content Include="Content\images\project2image.jpg" />
+    <Content Include="Content\images\project2image.png" />
     <Content Include="Content\project.css" />
     <Content Include="Default.aspx" />
     <Content Include="packages.config" />
@@ -84,6 +88,8 @@
     <Content Include="ProjectMaster.Master" />
     <Content Include="Project1.aspx" />
     <Content Include="Project2.aspx" />
+    <Content Include="Project3.aspx" />
+    <None Include="Properties\PublishProfiles\sarinaluu.pubxml" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Projects.aspx" />
     <Content Include="Scripts\app.js" />
@@ -192,6 +198,13 @@
     </Compile>
     <Compile Include="Project2.aspx.designer.cs">
       <DependentUpon>Project2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project3.aspx.cs">
+      <DependentUpon>Project3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project3.aspx.designer.cs">
+      <DependentUpon>Project3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

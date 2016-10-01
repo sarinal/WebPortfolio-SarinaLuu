@@ -1,7 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ProjectMaster.Master" AutoEventWireup="true" CodeBehind="Project1.aspx.cs" Inherits="WebPortfolio_SarinaLuu.WebForm1" %>
-
-
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ProjectMaster.Master" AutoEventWireup="true" CodeBehind="Project3.aspx.cs" Inherits="WebPortfolio_SarinaLuu.WebForm3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="projectMasterContainer">
         <div class="descriptionImage">
@@ -30,5 +27,3 @@
         
     </div>
 </asp:Content>
-
-
