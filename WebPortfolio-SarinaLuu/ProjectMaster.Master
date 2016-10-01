@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProjectMaster.master.cs" Inherits="WebPortfolio_SarinaLuu.ProjectMaster" %>
+
+<!DOCTYPE html>
+
+<!-- Name: Sarina Luu
+     Student#: 300838958
+     Date: September 22, 2016
+     ProjectMaster.Master file -->
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--CSS Section-->
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/project.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+
+<body>
+    <form id="form1" runat="server">
+        <header role="navigation">
+            <!--Main Navigation-->
+            <!--Top Left Nav-->
+            <div class="top-bar">
+                <div class="top-bar-left"></div>
+                <!--Top Center Nav-->
+                <div class="logoWrapper">
+                    <div class="logoImage">
+                        <img src="Content/images/LogoSarina.png" alt="logo" class="logo" />
+                    </div>
+                </div>
+                <!--Top Right Nav-->
+                <div class="top-bar-right">
+                    <img src="Content/images/menuIcon.png" class="menuIcon" onclick="openNav()" />
+                    <nav id="rightNav" class="rightNav">
+                        <div id="exit"><a href="javascript:void(0)" id="closeNav" class="closeNav" onclick="closeNav()">X</a></div>
+                        <ul id="navText">
+
+                            <li id="home"><a href="Default.aspx"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                            <li id="bio"><a href="Bio.aspx"><i class="fa fa-user" aria-hidden="true"></i>Bio</a></li>
+                            <li id="projects"><a href="Projects.aspx"><i class="fa fa-pencil" aria-hidden="true"></i>Projects</a></li>
+                            <li id="services"><a href="Services.aspx"><i class="fa fa-star" aria-hidden="true"></i>Services</a></li>
+                            <li id="contact"><a href="Contact.aspx"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+        <!--Horizontal Scroll-->
+        <div id="contentContainer">
+            <div id="wrapper">
+                <div id="itemOne" class="content">
+                    <!--Main Content-->
+                    <div class="content" role="main">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div id="itemTwo" class="content">
+                    <asp:ContentPlaceHolder ID="Content2" runat="server">
+                        </asp:ContentPlaceHolder>
+                </div>
+                <div id="itemThree" class="content">
+                    <asp:ContentPlaceHolder ID="Content3" runat="server">
+                        </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div id="navLinks">
+            <ul>
+                <li class="itemLinks" data-pos="0px"></li>
+                <li class="itemLinks" data-pos="-970px"></li>
+                <li class="itemLinks" data-pos="-1940px"></li>
+            </ul>
+        </div>
+
+
+    </form>
+    <!--Footer-->
+    <footer>
+        <h6>&copy Copyright Sarina Luu 2016 </h6>
+    </footer>
+    <!--Scripts section-->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>

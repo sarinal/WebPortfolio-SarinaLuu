@@ -11,7 +11,7 @@ namespace WebPortfolio_SarinaLuu
 {
 
 
-    public partial class Default
+    public partial class Bio
     {
     }
 }

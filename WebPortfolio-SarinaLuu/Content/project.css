@@ -1,0 +1,224 @@
+﻿/*  Name: Sarina Luu
+    Student#: 300838958
+    Date: September 22, 2016
+    project.css file
+    Custom CSS*/
+
+/*CUSTOM FONTS*/
+@font-face {
+    font-family: 'hattorihanzo';
+    src: url('../fonts/Hattori_Hanzo-webfont.eot');
+    src: url('../fonts/Hattori_Hanzo-webfont.eot') format('eot'), url('../fonts/Hattori_Hanzo-webfont.woff') format('woff'), url('../fonts/Hattori_Hanzo-webfont.ttf') format('truetype'),;
+}
+/*Body*/
+body {
+    background-color: #eaeaea;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+.title h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+/*Navigation*/
+.rightNav {
+    height: 100%;
+    width: 0;
+    right: 0;
+    position: fixed;
+    background-color: #FFE6D4;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+    .rightNav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+        color: #4D3B3B;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .rightNav a:hover, .offcanvas a:focus {
+            color: #E8918F;
+        }
+
+.closeNav {
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.menuIcon {
+    float: right;
+    margin: 5px 5px 0px 0px;
+    width: 30px;
+    height: 30px;
+}
+
+
+#navText {
+    margin-top: 25px;
+}
+
+li .active {
+    background-color: #000000;
+}
+
+#navText li {
+    list-style: none;
+}
+
+/*TopBar*/
+.top-bar-left {
+    width: 50%;
+    float: left;
+}
+
+.top-bar-right {
+    width: 50%;
+    float: right;
+}
+
+.logoWrapper {
+    position: relative;
+    margin-right: 80px;
+}
+
+    .logoWrapper .logo {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+    }
+#MainContent
+{     
+    height: 500px;
+    width: 970px;
+    margin-bottom: 0;
+    background-color: aquamarine;
+}
+
+
+/*FOOTER CSS*/
+footer {
+    text-align: center;
+    color: #000000;
+}
+
+
+/*PROJECT MASTER PAGE*/
+
+#descriptionImage {
+    position: absolute;
+    margin-left: 20%;
+    float: left;
+}
+
+#projectMasterContainer {
+    width: 80%;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+#projectDescription {
+    color: #000000;
+    width: 600px;
+    margin-left: 35%;
+}
+
+/*Horizontal Scroller*/
+#wrapper {
+    width: 2910px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .5s ease-in-out;
+}
+
+.content {
+    float: left;
+    width: 970px;
+    height: 500px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+
+#itemOne {
+    background-color: #FFE6D4;
+}
+
+#itemTwo {
+    background-color: #FFE6D4;
+}
+
+#itemThree {
+    background-color: #FFE6D4;
+}
+
+
+#contentContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 500px;
+    overflow: hidden;
+    border: 1px black solid;
+
+}
+
+#navLinks {
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navLinks ul {
+     margin: 0px;
+     display: inline-block;
+     margin-top: 6px;
+
+}
+
+#navLinks ul li {
+     float: left;
+     text-align: center;
+     margin: 5px;
+     list-style: none;
+     cursor: pointer;
+     background-color: #CCCCCC;
+     padding: 5px;
+     border: black 2px solid;
+}
+
+#navLinks ul li:hover {
+     background-color: #FFFF00;
+
+}
+
+#navLinks ul li.active {
+     background-color: #333333;
+     color: #FFFFFF;
+     outline-width: 7px;
+}
+#navLinks ul li.active:hover {
+     background-color: #484848;
+     color: #FFFFFF;
+}
+#navLinks ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+#navLinks ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}

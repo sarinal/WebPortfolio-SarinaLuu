@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.Master.cs" Inherits="WebPortfolio_SarinaLuu.MainMaster" %>
+
+<!DOCTYPE html>
+<!-- Name: Sarina Luu
+     Student#: 300838958
+     Date: September 22, 2016
+     MainMaster.Master file -->
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--CSS Section-->
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+
+<body id="body">
+    <form id="form1" runat="server">
+        <header role="navigation">
+            <!--Main Navigation-->
+            <!--Top Left Nav-->
+            <div class="top-bar">
+                <div class="top-bar-left"></div>
+                <!--Top Center Nav-->
+                <div class="logoWrapper">
+                    <div class="logoImage">
+                        <img src="Content/images/LogoSarina.png" alt="logo" class="logo" />
+                    </div>
+                </div>
+                <!--Top Right Nav-->
+                <!--Obtained From:
+                http://tympanus.net/codrops/2013/04/17/slide-and-push-menus/-->
+                <div class="top-bar-right">
+                    <img src="Content/images/menuIcon.png" class="menuIcon" onclick="openNav()" />
+                    <nav id="rightNav" class="rightNav">
+                        <div id="exit"><a href="javascript:void(0)" id="closeNav" class="closeNav" onclick="closeNav()">X</a></div>
+                        <ul id="navText">  
+                <!--End of Obtained Code-->                          
+                            
+                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home" aria-hidden="true"></i>  Home</a></li>
+                            <li id="bio" runat="server"><a href="Bio.aspx"><i class="fa fa-user" aria-hidden="true"></i> Bio</a></li>
+                            <li id="projects" runat="server"><a href="Projects.aspx"><i class="fa fa-pencil" aria-hidden="true"></i> Projects</a></li>
+                            <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-star" aria-hidden="true"></i> Services</a></li>
+                            <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+
+        
+    </form>
+    <!--Main Content-->
+        <div class="content" role="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <!--Footer-->
+    <footer>
+        <h6>&copy Copyright Sarina Luu 2016 </h6>
+    </footer>
+    <!--Scripts section-->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
