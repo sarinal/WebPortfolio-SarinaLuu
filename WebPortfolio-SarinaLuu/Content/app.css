@@ -133,13 +133,13 @@ footer{
     text-align: center;
     font-size: 150px; 
     height: 100%;  
-    background-image: url('images/homePic.jpg');
+    background-image: url('images/background2.png');
 
 }
 
 #nameHeading {
     text-align: center;
-    padding-top: 125px;
+    padding-top: 85px;
     vertical-align: middle;
     font-size: 68px;
 }
@@ -147,7 +147,7 @@ footer{
 .selection {
   
     margin-left: 45%;
-    padding-top: 100px;
+    padding-top: 65px;
     padding-bottom: 5px;
 }
 .selection img {
@@ -164,10 +164,7 @@ footer{
     padding-bottom: 0;
 }
 
-.selectionTitles {
-    margin-right: 80%;
 
-}
 /*BIO PAGE CSS*/
 .profilePic{    
     position: absolute;
@@ -198,9 +195,7 @@ footer{
 
 
 /*CONTACT PAGE CSS*/
-#ContactPage footer{
-    text-align: center;
-}
+
 .contactContainer {
     width: 80%;
     margin:auto;

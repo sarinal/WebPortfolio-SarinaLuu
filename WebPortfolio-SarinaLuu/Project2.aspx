@@ -2,12 +2,16 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Name: Sarina Luu
+     Student#: 300838958
+     Date: September 28, 2016
+     Project2.aspx file -->
     <div class="projectMasterContainer">
         <div class="descriptionImage">
             <img src="Content/images/project2image.png" alt="project1" class="img-thumbnail">
         </div>
         <div id="projectDescription">
-            <h1>Title</h1>
+            <h1>Delivery Service Database</h1>
             <p>
                 <b>Course:</b> COMP122 Introduction to Database Concepts<br /><br />
                 <b>Languages/Programs Used:</b> SQL, IBM DB2, powerPoint, Visio Studio<br /><br />

@@ -12,9 +12,7 @@
             <p id="nameHeading">SARINA LUU</p>
         </div>
         <div class="selection">
-           <div class="selectionTitles">
-               <p>Services&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Projects</p>
-           </div>
+           
            <div>
            <a href="Services.aspx"><img class="servicesIcon" src="Content/images/staricon.png"  /></a>
            </div>

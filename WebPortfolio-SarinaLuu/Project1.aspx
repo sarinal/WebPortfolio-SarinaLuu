@@ -3,6 +3,10 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Name: Sarina Luu
+     Student#: 300838958
+     Date: September 28, 2016
+     Project1.aspx file -->
     <div class="projectMasterContainer">
         <div class="descriptionImage">
             <img src="Content/images/project1image.png" alt="project1" class="img-thumbnail">

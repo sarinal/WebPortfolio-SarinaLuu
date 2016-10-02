@@ -1,11 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ProjectMaster.Master" AutoEventWireup="true" CodeBehind="Project3.aspx.cs" Inherits="WebPortfolio_SarinaLuu.WebForm3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Name: Sarina Luu
+     Student#: 300838958
+     Date: September 28, 2016
+     Project3.aspx file -->
     <div class="projectMasterContainer">
         <div class="descriptionImage">
-            <img src="Content/images/project3image.jpg" alt="project1" class="img-thumbnail">
+            <img src="Content/images/project3image.jpg" alt="project3" class="img-thumbnail">
         </div>
         <div id="projectDescription">
-            <h1>Title</h1>
+            <h1>Restaurant Ordering Application</h1>
             <p>
                 <b>Course:</b> COMP225 Software Engineering Methodologies<br /><br />
                 <b>Languages/Programs Used:</b> UML, Visio Studio, and powerPoint <br /><br />

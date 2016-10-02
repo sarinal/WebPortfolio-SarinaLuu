@@ -19,13 +19,13 @@
                 in computer science i knew that i wanted to pursue it as a career. Contributing<br /> 
                 to the growing technology of our modern society always seemed so exciting to me<br />
                 because I love the design and analytical aspect of developing new applications<br />
-                and software. <br />
+                and software. <br /><br />
 
                 Through my studies at Centennial College in Health Informatics Technology I have learned
                 how to develop technical solutions for business problems, document business require-
                 ments, work with databases, as well as web design and coding. I am also an avid learner
                 and ambitious. 
-                <br />
+                <br /><br />
                 In my spare time i love to travel, spend time with family and online shop. I also run a<br />
                 cake business at home, which is another passion of mine.                               
             </p>

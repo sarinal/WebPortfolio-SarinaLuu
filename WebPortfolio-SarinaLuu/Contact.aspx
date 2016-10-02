@@ -28,7 +28,7 @@
                     <textarea class="form-control" rows="5"></textarea>
                 </div>
 
-                <button onclick="location.href = 'Default.aspx';" class="btn btn-default">Submit</button>
+                <input type="button" value="Submit" onclick="location.href='Default.aspx';"/>
             </form>
             
             <div class="contactInfo">
@@ -46,5 +46,4 @@
             </div>
         </div>    
     </div>
-    
 </asp:Content>

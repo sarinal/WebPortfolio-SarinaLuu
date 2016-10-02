@@ -69,6 +69,7 @@
     <Content Include="Bio.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
+    <Content Include="Content\images\background2.png" />
     <Content Include="Content\images\browser-5.png" />
     <Content Include="Content\images\computer.png" />
     <Content Include="Content\images\default.jpg" />
