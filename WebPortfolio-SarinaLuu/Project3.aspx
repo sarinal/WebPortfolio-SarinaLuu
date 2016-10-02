@@ -26,8 +26,8 @@
     <div class="projectMasterContainer">
         <h1 class="header2">Samples:</h1>
         <div class="samples">
-            <div><img class="row1Image" src="Content/images/project3Sample1" /></div>
-            <div><img class="row2Image" src="Content/images/project3Sample2" /></div>
+            <div><img class="row1Image" src="Content/images/project3Sample1.png" /></div>
+            <div><img class="row2Image" src="Content/images/project3Sample2.png" /></div>
         </div>
         
             
