@@ -144,6 +144,30 @@ footer{
     font-size: 68px;
 }
 
+.selection {
+  
+    margin-left: 45%;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+.selection img {
+    height: 80px;
+    width: 80px;
+   float: left;
+   padding-right: 5px;
+
+}
+
+.selection p {
+    font-size: 10px;
+    color: #eaeaea;
+    padding-bottom: 0;
+}
+
+.selectionTitles {
+    margin-right: 80%;
+
+}
 /*BIO PAGE CSS*/
 .profilePic{    
     position: absolute;
@@ -242,4 +266,66 @@ footer{
     border: none;
     border-style: none;
 }
+/*SERVICES CSS*/
+.services {
+    width: 800px;
+    margin-left: 380px;
+}
 
+.services h3{
+    padding-bottom: 10px;
+}
+
+.services p{
+    font-size: 12px;
+    padding
+}
+
+.design{
+   width: 150px;
+   float: left;
+   padding-left: 20px;
+   
+}
+
+.design img{
+    height: 100px;
+    width: 100px;
+}
+
+.ideas{
+   width: 150px;
+   float: left;
+   padding-left: 20px;
+  
+}
+
+.ideas img {
+    height: 100px;
+    width: 100px;
+}
+.coding{
+    width: 150px;
+   float: left;
+   padding-left: 20px;
+}
+
+.coding img{
+    height: 100px;
+    width: 100px;
+}
+.planning{
+    width: 150px;
+   float: left;
+   padding-left: 20px;
+}
+
+.planning img{
+    height: 100px;
+    width: 100px;
+}
+
+.license {
+    padding-top: 390px;
+    text-align: center;
+}
