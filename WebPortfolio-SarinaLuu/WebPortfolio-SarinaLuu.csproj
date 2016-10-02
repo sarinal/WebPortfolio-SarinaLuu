@@ -80,8 +80,14 @@
     <Content Include="Content\images\modeling.png" />
     <Content Include="Content\images\profilephoto1.jpg" />
     <Content Include="Content\images\project1image.png" />
-    <Content Include="Content\images\project2image.jpg" />
+    <Content Include="Content\images\project1Sample1.png" />
+    <Content Include="Content\images\project1Sample2.png" />
     <Content Include="Content\images\project2image.png" />
+    <Content Include="Content\images\project2Sample1.png" />
+    <Content Include="Content\images\project2Sample2.png" />
+    <Content Include="Content\images\project3image.jpg" />
+    <Content Include="Content\images\project3Sample1.png" />
+    <Content Include="Content\images\project3Sample2.png" />
     <Content Include="Content\images\projectsicon.png" />
     <Content Include="Content\images\staricon.png" />
     <Content Include="Content\project.css" />

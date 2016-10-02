@@ -14,7 +14,7 @@
         </div>
         <div class="projectThumb" style=" float: left; border:none;">
             <a href="Project3.aspx" class="thumbnail">
-                <img src="Content/images/project3image.jpeg" alt="project2" class="img-thumbnail"></a>
+                <img src="Content/images/project3image.jpg" alt="project2" class="img-thumbnail"></a>
         </div>
     </div>
  </div>   
